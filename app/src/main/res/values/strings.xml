@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Laboratoire2-Mejdoubi</string>
+    <string name="infoMembre">Informations d\'un membre</string>
+    <string name="nomComplet">Nom complet</string>
+    <string name="et_courriel">Courriel</string>
+    <string name="et_telephone">Téléphone</string>
+    <string name="et_motDePasse">Mot de passe</string>
+    <string name="et_confirmerMotDePasse">Confirmation mot de passe</string>
+    <string name="chk_afficherMotDePasse">Afficher</string>
+    <string name="chk_afficherConfirmerMotDePasse">Afficher</string>
+    <string name="chk_infolettre">J\'accepte de recevoir l\'infolettre pour les nouveaux événements</string>
+    <string name="btn_sauvegarder">SAUVEGARDER</string>
+    <string name="btn_quitter">QUITTER</string>
+</resources>
