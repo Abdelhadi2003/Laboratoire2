@@ -87,4 +87,33 @@ public class MainActivity extends AppCompatActivity {
         alerteDialogue.show();
     }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.i("Message onStart()", "L’activité est passée par la méthode onStart()");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.i("Message onResume()", "L’activité est passée par la méthode onResume()");
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+            Log.i("Message onPause()", "L’activité est passée par la méthode onPause()");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.i("Message onStop()", "L’activité est passée par la méthode onStop()");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.i("Message onDestroy()", "L’activité est passée par la méthode onDestroy()");
+    }
 }
